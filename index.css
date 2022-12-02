@@ -1,0 +1,41 @@
+@import url('https://fonts.google.com/specimen/Raleway');
+
+body {
+    background-color:darkgrey;
+}
+body nav {
+    justify-content: space-around;
+    display: flex;
+    padding: 2.0em;
+    text-decoration:none;
+    background-color: darkgrey;
+}
+
+a {
+    font-size: 130%;
+}
+
+body nav a:hover {
+    color:cornsilk;
+    transform: scale(175%);
+}
+
+nav a {
+    font-size: x-large;
+}
+
+h1 {
+    font-size:xxx-large;
+}
+
+p {
+    font-size:larger;
+}
+
+header {
+    background: url(./picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
